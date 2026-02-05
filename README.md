@@ -1,18 +1,37 @@
-# 🛡️ Cybersecurity Portfolio - Level 2
+# 🛡️ Cybersecurity & Python Portfolio - Level 2
 
-Ez a gyűjtemény a középhaladó szintű kiberbiztonsági projektjeimet tartalmazza, amelyek a hálózati forgalom elemzésére és a webes sérülékenységek automatizált keresésére fókuszálnak.
+**Author:** [Paczok Norisz]
+**Focus:** Advanced Network Security, Web Vulnerability Analysis, Malware Defense
 
-## 📁 Tartalom (15-20. projekt)
+---
 
-1. **15_Network_Packet_Sniffer**: Hálózati csomagok lehallgatása és elemzése (nyers adatforgalom vizsgálata).
-2. **16_Advanced_Port_Scanner**: Kifinomult portszkenner eszköz a hálózati szolgáltatások felderítéséhez.
-3. **17_Malware_Signature_Scanner**: Alapszintű kártevő-felismerő rendszer hash-alapú ujjlenyomatok segítségével.
-4. **18_SQL_Injection_Scanner**: Weboldalak automatizált tesztelése SQL injekciós sebezhetőségekre.
-5. **19_XSS_Vulnerability_Scanner**: Cross-Site Scripting (XSS) rések keresése webes beviteli mezőkben.
-6. **20_Brute_Force_Login**: Bejelentkezési felületek ellenálló képességének tesztelése brute-force támadásokkal szemben.
+## 📌 Overview
 
-## ⚠️ JOGI NYILATKOZAT (DISCLAIMER)
-A repozitóriumban található kódok kizárólag oktatási és etikus kiberbiztonsági kutatási célokat szolgálnak. A szoftverek bármilyen engedély nélküli, rosszindulatú használata illegális és súlyos jogi következményeket vonhat maga után. A készítő nem vállal felelősséget a kódok nem rendeltetésszerű használatáért. [cite: 2026-02-04]
+Ez a repozitórium a kiberbiztonsági utam második szintjét mutatja be, ahol a fókusz az alapvető eszközöktől a **hálózati forgalom mélyelemzése** és az **automatizált sérülékenységvizsgálat** felé tolódott el. A gyűjtemény 6 komplex Python-alapú eszközt tartalmaz, amelyek a modern biztonsági rések felderítését és szimulálását szemléltetik.
 
-## 🛠️ Telepítés és használat
-A projektek futtatásához Python 3.x környezet és esetenként külső könyvtárak (pl. `scapy`, `requests`, `beautifulsoup4`) szükségesek.
+---
+
+## 📂 Project Catalog
+
+### 🌐 Network Traffic & Protocol Analysis
+| Project | Description | Key Skills |
+| :--- | :--- | :--- |
+| **[15_Network_Packet_Sniffer](./15_Network_Packet_Sniffer)** | Deep packet inspection és valós idejű adatfolyam elemzés. | `socket`, `struct`, OSI Model |
+| **[16_Advanced_Port_Scanner](./16_Advanced_Port_Scanner)** | Magas teljesítményű, többszálú (multi-threaded) hálózati szolgáltatás felderítés. | `threading`, `socket` |
+
+### 🛡️ Defensive Systems & Malware Analysis
+| Project | Description | Key Skills |
+| :--- | :--- | :--- |
+| **[17_Malware_Signature_Scanner](./17_Malware_Signature_Scanner)** | Statikus fájlelemzés és kártevő-felismerés ismert hash-ujjlenyomatok alapján. | `hashlib`, Signature DB |
+
+### ⚔️ Web Application Security (Vulnerability Scanning)
+| Project | Description | Key Skills |
+| :--- | :--- | :--- |
+| **[18_SQL_Injection_Scanner](./18_SQL_Injection_Scanner)** | Adatbázis-injekciós sebezhetőségek automatizált keresése webes felületeken. | `requests`, SQLi Payloads |
+| **[19_XSS_Vulnerability_Scanner](./19_XSS_Vulnerability_Scanner)** | Cross-Site Scripting (XSS) rések detektálása a beviteli mezők elemzésével. | `BeautifulSoup`, HTML DOM |
+| **[20_Brute_Force_Login](./20_Brute_Force_Login)** | Hitelesítési folyamatok ellenálló képességének tesztelése szótár-alapú támadásokkal. | `requests`, Iteration |
+
+---
+
+## ⚠️ Jogi Nyilatkozat (Disclaimer)
+A repozitóriumban található kódok kizárólag **oktatási és etikus kiberbiztonsági kutatási** célokat szolgálnak. A szoftverek bármilyen engedély nélküli, rosszindulatú használata illegális és súlyos jogi következményeket vonhat maga után. A készítő nem vállal felelősséget a kódok nem rendeltetésszerű használatáért. [cite: 2026-02-04]
