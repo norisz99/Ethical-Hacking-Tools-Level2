@@ -21,5 +21,8 @@ Különlegessége, hogy képes különbséget tenni a protokollok között, és 
 1. **Függőségek telepítése:**
    ```bash
    pip install scapy
-## ⚠️ Jogi Nyilatkozat (Disclaimer)
-Ez az eszköz kizárólag **oktatási és saját hálózat-diagnosztikai célokra** készült. Mások hálózati forgalmának engedély nélküli megfigyelése vagy rögzítése törvénybe ütköző cselekmény lehet. Használd felelősséggel!
+# ⚠️ CRITICAL LEGAL DISCLAIMER
+
+**HU:** Ez az eszköz kizárólag **saját rendszerek tesztelésére** vagy a tulajdonos **írásos engedélyével** rendelkező hálózatokon használható. Mások weboldalának vagy hálózatának vizsgálata engedély nélkül **bűncselekmény** (Btk. 423. §). A szerző Paczok Norisz elhárít minden felelősséget a jogellenes használatért.
+
+**EN:** This tool is for **authorized testing only**. Scanning targets without prior mutual consent is illegal. The creator assumes no liability and is not responsible for any misuse or damage caused by this program.
