@@ -1,5 +1,11 @@
 # 🔨 Universal Brute Force Login Cracker (v2.0)
 
+# ⚠️ LEGAL DISCLAIMER
+
+**HU:** Ez az eszköz kizárólag **saját rendszerek tesztelésére** vagy a tulajdonos írásos engedélyével rendelkező hálózatokon használható. A szoftver oktatási céllal készült. A szerző (Paczok Norisz) elhárít minden felelősséget a jogellenes használatért vagy károkért.
+
+**EN:** This tool is for **educational purposes and authorized testing only**. The creator (Paczok Norisz) assumes no liability for misuse or any damage caused by this program.
+
 ## 📌 Áttekintés (Overview)
 Ez a továbbfejlesztett eszköz egy univerzális jelszótörő alkalmazás, amely bármely szabványos HTTP POST alapú bejelentkezési felületen használható. A program dinamikusan konfigurálható, így a felhasználó szabadon megadhatja a célpont mezőneveit és a sikerességet jelző kulcsszavakat. Támogatja a külső szótárfájlok (.txt) használatát.
 
@@ -18,4 +24,5 @@ Ez a továbbfejlesztett eszköz egy univerzális jelszótörő alkalmazás, amel
 
 **Futtatás:**
 ```bash
+
 python login_cracker_v2.py
